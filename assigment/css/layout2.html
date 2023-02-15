@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            border-radius: 5px;
+        }
+        h4,h1{
+            margin-top: 0px;
+            margin-bottom: 0px;
+            background-color: black;
+            color: aliceblue;
+            padding: 5px;
+        }
+        .container{
+            height: auto;
+            width: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .cld1{
+            padding: 0px;
+         
+            width:20%;
+            margin: 0px;
+            height: 800px;
+          
+        }
+        .cld1>ul{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 0px;
+
+        }
+        .cld2{
+            width: 70%;
+           
+            height: 30%;
+           
+        }
+        .ttl{
+            text-align: center;
+        }
+        .lst{
+            width: 350px;
+            height: 100px;
+            margin: 10px;
+        }
+        .container2{
+            display: flex;
+            flex-wrap: wrap;
+            height: fit-content;
+            justify-content: space-around;
+        }
+        .lst>li{
+            margin: 10px;
+            list-style: none;
+        }
+        @media only screen and (max-width:900px) {
+            .container{
+            height: auto;
+            width: auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+            .cld1{
+            display:none;
+           
+          
+        }
+        .cld2{
+            width: 100%;
+           
+            height: 70%;
+           
+        }
+        .lst>li{
+            
+            list-style: none;
+        }
+        .lst{
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            font-size: 20px;
+        }
+        }
+        @media only screen and (max-width:400px) {
+          
+            .cld1{
+            display:none;
+           
+          
+        }
+        .cld2{
+            width: 100%;
+           
+            height: 30%;
+           
+        }
+        
+        .lst{
+            width: 150px;
+            height: 100px;
+            margin: 10px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cld1">
+            <h4>public</h4>
+            <ul>
+                <li>Link1</li>
+                <li>Link2</li>
+               
+            </ul>
+            <h4>View</h4>
+            <ul>
+              
+                <li>Link1</li>
+                <li>Link2</li>
+                <li>Link3</li>
+                <li>Link4</li>
+                <li>Link5</li>
+                <li>Link6</li>
+            </ul>
+            <h4>HR</h4>
+            <ul>
+                <li>Address Details</li>
+                <li>Family Details</li>
+              
+            </ul>
+            <h4>Network Details</h4>
+            <ul>
+                <li>Vehical Details</li>
+                <li>Machine Details</li>
+               
+            </ul>
+        </div>
+        <div class="cld2">
+          <div class="ttl"><h1>Details</h1></div>
+          <div class="container2">
+            <div class="lst">
+                <li><strong>Name:</strong>abc</li>
+                <li><strong>Value:</strong>def</li>
+                <li><strong>Extra:</strong>xyz</li>
+            </div>
+            <div class="lst">
+                <li><strong>Name:</strong>abc</li>
+                <li><strong>Value:</strong>def</li>
+                <li><strong>Extra:</strong>xyz</li>
+            </div>
+            <div class="lst">
+                <li><strong>Name:</strong>abc</li>
+                <li><strong>Value:</strong>def</li>
+                <li><strong>Extra:</strong>xyz</li>
+            </div>
+            <div class="lst">
+                <li><strong>Name:</strong>abc</li>
+                <li><strong>Value:</strong>def</li>
+                <li><strong>Extra:</strong>xyz</li>
+            </div>
+            <div class="lst">
+                <li><strong>Name:</strong>abc</li>
+                <li><strong>Value:</strong>def</li>
+                <li><strong>Extra:</strong>xyz</li>
+            </div>
+            <div class="lst">
+                <li><strong>Name:</strong>abc</li>
+                <li><strong>Value:</strong>def</li>
+                <li><strong>Extra:</strong>xyz</li>
+            </div>
+        
+          </div>
+           
+            
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment1</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="head">
+        <div class="logo">
+            <img src="../../images/logo2.jpg" alt="image not available">
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="../root.html">Home</a></li>
+                <li> <a href="./index.html">HTML</a> </li>
+                <li> <a href="../css/index.html">CSS</a> </li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>JQuery</li>
+                <li>Mini Project</li>
+                <li>SQL</li>
+            </ul>
+           
+        </div>
+    </div>
+    <div class="mid">
+        <div class="sidebar">
+            <ul>
+                <li>Day1
+                    <ul>
+                        <li>Assignment
+                            <ul>
+                                <li><a href="./assignment1.html">Assignment1</a></li>
+                            </ul>
+                            
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>Practice
+                            <ul>
+                                  <li><a href="./practice1.html">Practice1</a> </li>
+                                <li><a href="./practice2.html">Practice2</a> </li>
+                            </ul>
+                            
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="main1">
+           <h1>Add Employee Form</h1>
+           <div class="form">
+            <div class="title">Add Employee</div>
+            <form name="employee">
+                <label for="name" >Name:&nbsp;</label><br>
+                <input type="text" required id="name" placeholder="Enter Name"><br><br>
+                <label for="age">Age:</label><br><input type="number" required id="age" placeholder="Enter Age"><br><br>
+                <label for="Gender">Gender:</label><br>
+                <input type="radio" id="female" name="Gender" value="FEMALE">
+                <label for="female">FEMALE</label>
+                <input type="radio" id="male" name="Gender" value="MALE">
+                <label for="male">MALE</label><br><br>
+                <label for="designation">Designation:</label><br><input type="text" required  id="designation" placeholder="Enter Designation"><br><br>
+                <label for="email">Email:</label><br><input type="email" required  id="email" placeholder="Enter Email"><br><br>
+                <label for="salary">Salary:</label><br><input type="number" required  id="salary" placeholder="Enter Expacted Salary"><br><br>
+                <label for="doj">Date of Joining:</label><br><input type="date" required  id="doj"><br><br>
+                <label for="loc">Location:</label><br>
+                <select required  id="loc">
+                <option >Ahmedabad</option>
+                <option >Ghandhinagar</option>
+                <option >California</option>
+                </select><br><br>
+                <label for="num">Contact no:</label><br><input type="tel" required  id="num"><br><br>
+                <input type="submit" value="Add" id="sub">
+            </form>
+
+           </div>
+        </div>
+    </div>
+</body>
+</html>
